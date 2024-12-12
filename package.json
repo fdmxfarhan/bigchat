@@ -1,0 +1,26 @@
+{
+  "name": "bigchat",
+  "version": "1.0.0",
+  "description": "Bigchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdmxfarhan/bigchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdmxfarhan/bigchat/issues"
+  },
+  "homepage": "https://github.com/fdmxfarhan/bigchat#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.6.2"
+  }
+}

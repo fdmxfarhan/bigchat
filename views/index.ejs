@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Video Call App</title>
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div id="user-id"><%= userID %></div>
+    <h1>Video Call App</h1>
+    <div>
+      <h3>Your Video</h3>
+      <video id="localVideo" autoplay muted></video>
+    </div>
+    <div>
+      <h3>Remote User's Video</h3>
+      <video id="remoteVideo" autoplay></video>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
